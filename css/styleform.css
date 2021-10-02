@@ -1,0 +1,85 @@
+body
+    {margin: 1;  padding: 1; font-family: 'Roboto', sans-serif; }
+
+
+
+h1 {color: tomato; font-size: 40px;  text-align: center}
+
+
+input[type=text] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 98px;
+}
+input[type=tel] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 98px;
+}
+
+input[type=email] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 98px;
+}
+
+input[type=date] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 98px;
+}
+
+input[type=number] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 98px;
+}
+
+input[type=password] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 40px;
+}
+
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #003333;
+    
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #009966 ;
+}
+
+input[type=reset]:hover {
+    background-color: #009966 ;
+}
+
+
+.container{
+    text-align: center;
+}
