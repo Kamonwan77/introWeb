@@ -61,7 +61,7 @@ input[type=password] {
 
 
 input[type=button], input[type=submit], input[type=reset] {
-    background-color: #003333;
+    background-color :#003333;
     
     border: none;
     color: white;
@@ -76,7 +76,7 @@ input[type=submit]:hover {
 }
 
 input[type=reset]:hover {
-    background-color: #009966 ;
+    background-color: #942509 ;
 }
 
 
