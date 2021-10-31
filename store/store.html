@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Kamonwan store</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+   
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Alegreya', serif;
+    color: rgb(58, 58, 58);
+    font-size: 20px;
+    background-color: rgb(240, 238, 238);
+}
+
+h1 {font-size: 40px;}
+h2 {font-size: 20px;}
+
+
+input[type=search] { background-color: rgb(240, 238, 238) ; border: none; width: 220px; 
+height: 40px; font-size: 20px;  padding: 5px 10px;
+}
+
+
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  
+  float: left;
+  width: 30%;
+  height: 1000px; /* only for demonstration, should be removed */
+  background: rgb(255, 255, 255);
+  padding: 80px;
+ 
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 10;
+}
+
+
+
+
+aside {
+  margin-top: 90px;
+  margin-right: 70px;
+  float: right;
+  padding: 70px;
+  width: 60%;
+  background-color: #ffffff;
+  height: 2000px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+
+/* Style the footer */
+footer {
+  background-color: rgb(194, 11, 11);
+  padding: 10px;
+  text-align: center;
+  color: rgb(12, 12, 12);
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 900px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<section>
+  <nav>
+    <ul>
+      <h1> KAMONWAN </h1><br><br>
+      <li><a href="archive.html" target="iFramShowData"> Home </a></p>
+      <p><a href="https://www.facebook.com/bell.bella.10441" target="_blank">Facebook</a></p>
+      <p><a href="https://www.instagram.com/mmabella_/" tarket="_blank"> Instagram </a></p>
+      <p><a href="https://twitter.com/weehoooooo" target="_blank"> Twitter </a></p>
+      <li><a href="contact.html" target="iFramShowData"> Contact </a></p>
+      <li><a href="login.html" target="iFramShowData"> สมัครสมาชิก </a></p><br>
+
+      <h2> ANYTHING YOU WANT <br>
+        TO READ </h2>
+      
+      <div class="search">
+          <input type="search"  name="" placeholder="ค้นหา ..." id="" >
+
+      </div>
+    
+    </ul>
+  </nav>
+
+  <aside>
+    
+    <iframe src="login.html" name="iFramShowData" style="border: none;" height="2000" width="800" title="Iframe Example"></iframe>
+   
+  </aside>
+</section>
+
+</body>
+</html>
