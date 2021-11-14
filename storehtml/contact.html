@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+
+    <style>
+        body {font-size: 25px;
+        color: rgb(58, 55, 55)}
+        label{font-size: 20px;}
+        input[type=text], input[type=email]
+        {background-color: white; font-size: 20px; border: none;  width: 300px ; height: 40px;}
+        
+        textarea[name=message]{
+            background-color: white; font-size: 20px; border: none;
+        }
+        input[type=submit]:hover {background-color: #797878 ;}
+        input[type=submit] {background-color :#000000; font-size: 20px ; border: none;  color: white;
+        padding: 16px 32px; text-decoration: none;  margin: 4px 2px; cursor: pointer; }
+
+              
+    </style>
+
+</head>
+<body>
+    
+    <h2>Get in Touch  </h2>
+    <p>Prachinburi <br>
+        hailand</p> 
+   <p><a href="mailto:gamonwan5184@gmail.com">Send email</a></p><br>
+          
+                
+    <h2> Send Us a Message <h2>
+
+        <div class="container">
+        
+            <form action="#">
+                <label for="fname"> ชื่อ </label><br>
+                <input type="text" id="fname" name="fname" required placeholder="Enter your name"><br><br>
+                
+                <label for="email"> อีเมลล์ </label><br>
+                <input type="email" id="อีเมลล์" name="อีเมลล์" required placeholder="Enter your email"><br><br>
+                            
+                   
+                <label for="text"> ข้อความ </label><br>
+                <textarea name="message"  rows="10" cols="30" > </textarea><br><br>
+                
+                <input type="submit" value="ส่ง">
+            </form>
+              
+        </div>
+    
+    
+</body>
+</html>
